@@ -3,9 +3,11 @@ public class vehicle {
 
         PetrolEngin pe = new PetrolEngin();
         pe.start();
+        pe.stop();
 
         DeselEngine de = new DeselEngine();
         de.start();
+        de.stop();
         System.out.println("Hello");
     }
 }
