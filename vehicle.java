@@ -1,8 +1,9 @@
 public class vehicle {
     public static void main(String[] args) {
-        System.out.println("Hello");
-        pe.start();
-    }
 
-    private petrolEngin pe;
+        PetrolEngin pe = new PetrolEngin();
+        pe.start();
+        
+        System.out.println("Hello");
+    }
 }
