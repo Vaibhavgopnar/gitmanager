@@ -16,6 +16,7 @@ public class vehicle {
 
         HydrogenEngine he = new HydrogenEngine();
         he.start();
+        he.stop();
         System.out.println("Hello");
     }
 }
