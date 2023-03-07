@@ -13,6 +13,9 @@ public class vehicle {
         ee.start();
         ee.stop();
         ee.makeSound();
+
+        HydrogenEngine he = new HydrogenEngine();
+        he.start();
         System.out.println("Hello");
     }
 }
