@@ -8,6 +8,11 @@ public class vehicle {
         DeselEngine de = new DeselEngine();
         de.start();
         de.stop();
+
+        ElectricEngine ee = new ElectricEngine();
+        ee.start();
+        ee.stop();
+        ee.makeSound();
         System.out.println("Hello");
     }
 }
