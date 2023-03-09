@@ -1,4 +1,6 @@
 public class vehicle {
+
+    int tyres ;
     public static void main(String[] args) {
 
         PetrolEngin pe = new PetrolEngin();
@@ -18,5 +20,7 @@ public class vehicle {
         he.start();
         he.stop();
         System.out.println("Hello");
+
+        this.tyres = 4;
     }
 }
