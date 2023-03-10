@@ -10,4 +10,7 @@ public class ElectricEngine {
         System.out.println("This Electric Vehicle is sounded");
     }
 
+    public void genaratePower() {
+    	System.out.println("Engine generating power");
+    }
 }
