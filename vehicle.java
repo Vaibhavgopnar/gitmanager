@@ -21,6 +21,5 @@ public class vehicle {
         he.stop();
         System.out.println("Hello");
 
-        this.tyres = 4;
     }
 }

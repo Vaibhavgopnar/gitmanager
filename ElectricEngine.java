@@ -1,4 +1,5 @@
-public class PetrolEngin {
+
+public class ElectricEngine {
     public void start(){
         System.out.println("This Electric is Petrol Vehicle");
     }
